@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+.logo {
+  text-shadow: 1px 1px 2px #222;
+  font-size: 25px;
+}
+
+.logo .ogo {
+  color: white;
+}
+
+.navbar {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(white), to(#10bfc8c3)) !important;
+  background-image: linear-gradient(to top, white, #10bfc8c3) !important;
+}
+
+.nav-link {
+  color: #222 !important;
+}
+
+.jumbotron {
+  background-image: url("./img/cat.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  position: relative;
+  border-radius: 0;
+  margin: 0;
+}
+
+.jumbotron p {
+  text-align: right;
+}
+
+.jumbotron h1 {
+  text-align: center;
+  text-shadow: 1px 1px 2px #222;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.bg-gray {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Footer {
+  grid-area: Footer;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#10bfc8c3));
+  background-image: linear-gradient(white, #10bfc8c3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Footer small {
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
